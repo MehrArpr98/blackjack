@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(217,221,206);
+}
+li{
+    margin: 10px;
+}
+li:hover{
+    font-weight: bold;
+}
+#rules{
+    border: 1px solid rgb(42,67,31);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 20px 20px 50px rgb(42,67,31);
+    background-color: rgb(242,237,217);
+}
+.firstRow{
+    display: flex;
+    color: rgb(108,134,104);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    padding: 10px;
+}
+.firstRow div{
+    border-radius: 50%;
+    margin-left: 0.3%;
+}
+.firstRow span{
+    font-size: 2.5rem;
+}
+.c1 {
+    background-color: rgb(224,93,31);
+}
+.c2 {
+    background-color: rgb(85,104,53);
+}
+.c3{
+    background-color: rgb(231,133,46);
+}
+.c4{
+    background-color: rgb(42,67,31);
+}
+.c5{
+    background-color: rgb(218,180,113);
+}
+#pic1-1{
+    border: none;
+    width: 50%;
+    height: 50%;
+}
+#pic1-2{
+    border: none;
+    width: 30%;
+    height: 30%;
+    transform: rotate(40deg);
+}
+#pic1-3{
+    border: none;
+    width: 18%;
+    height: 18%;
+    transform: rotate(-40deg);
+}
+#pic2-1{
+    border: none;
+    width: 25%;
+    margin-top: 10px;
+    height: 25%;
+    transform: rotate(40deg);
+    filter: hue-rotate(90deg);
+}
+#ruleImg{
+    width: 10%;
+    height: auto;
+    filter: hue-rotate(-0.25turn);
+}
+#startButton{
+    border: none;
+    border-radius: 0.2rem;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgb(224,93,31);
+    color: white;
+}
+#startButton:hover {
+
+    background-color: rgb(42,67,31);
+    border: 2px solid rgb(224,93,31);
+}
+.dFlex{
+    display: flex;
+}
+#startDiv{
+    text-align: center;
+    padding-top: 27px;
+    margin-left: 80px;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    #startButton{
+        padding: 8px 16px;
+    }
+    .firstRow span{
+        font-size: 1.5rem;
+    }
+}

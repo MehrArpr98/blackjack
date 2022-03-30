@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(217,221,206);
+}
+.cards{
+    margin-top: 5%;
+}
+.innerDiv2{
+    position: relative;
+}
+.innerDiv1{
+    height: 200px;
+    position: relative;
+    padding-top: 90px;
+}
+.innerDiv3{
+    height: 50px;
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 10%;
+}
+
+h4{
+    float: left;
+    font-size: 1.5rem;
+}
+.innerDiv2 img{
+    border: 0.1px solid gray;
+    border-radius: 0.4rem;
+    position: absolute;
+    z-index: 0;
+}
+#card1{
+    left:40px;
+    z-index: 0;
+}
+#card2{
+    left:70px;
+    z-index: 1;
+}
+#card3{
+    left: 100px;
+    z-index: 2;
+    display: none;
+}
+#card4{
+    left: 130px;
+    z-index: 3;
+    display: none;
+}
+#card5{
+    left: 160px;
+    z-index: 4;
+    display: none;
+}
+
+.buttons{
+    margin-top: 50px;
+}
+
+.centerClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#attention{
+    text-align: center;
+}
+.borderDiv{
+    border-radius: .4rem;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: rgb(242,237,217);
+}
+button{
+    border: none;
+    border-radius: 0.2rem;
+    padding: 4% 8%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#hit {
+    background-color: rgb(42,67,31);
+    color: white;
+}
+
+#hit:hover {
+    background-color: rgb(85,104,53);
+    color: black;
+    border: 2px solid rgb(42,67,31);
+}
+
+#stand {
+    background-color: rgb(224,93,31);
+    color: white;
+}
+
+#stand:hover {
+    background-color: rgb(253,150,74);
+    color: black;
+    border: 2px solid rgb(224,93,31);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .buttons{
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+.innerDiv2 img {
+    height: 70%;
+}
+
+.cardImg img{
+
+}
+.innerDiv1 {
+    padding-top: 65px;
+}
+button{
+    padding: 3% 6%;
+}
+
+}
+
+
+
